@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.project.wangyuming.wechat.dao.LineMessageMapper">
+  <resultMap id="BaseResultMap" type="com.project.wangyuming.wechat.model.LineMessage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="toUser" jdbcType="VARCHAR" property="touser" />
+    <result column="fromUser" jdbcType="VARCHAR" property="fromuser" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="msgType" jdbcType="VARCHAR" property="msgtype" />
+    <result column="Title" jdbcType="VARCHAR" property="title" />
+    <result column="Description" jdbcType="VARCHAR" property="description" />
+    <result column="Url" jdbcType="VARCHAR" property="url" />
+    <result column="MsgId" jdbcType="VARCHAR" property="msgid" />
+  </resultMap>
+</mapper>
