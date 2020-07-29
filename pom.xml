@@ -6,7 +6,6 @@
 		<module>core</module>
 		<module>cg</module>
 		<module>tmp</module>
-		<module>wechat</module>
 		<module>rabbitmq</module>
         <module>util</module>
         <module>netty</module>
